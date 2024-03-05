@@ -1,0 +1,76 @@
+@media all and (max-width:575px){
+    .header .overlay .contain{
+        width: 95%;
+    }
+    .services .cards .small-card{
+        display: block;
+        text-align: center;
+    }
+    .responsive .overlay{
+        padding: 100px 0;
+    }
+    .responsive .overlay .contain .image-left{
+        display: none;
+    }
+    .responsive .overlay .contain .text-right{
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 40px 0;
+    }
+}
+@media all and (min-width:576px) and (max-width:767px) {
+    .header .overlay .contain{
+        width: 100%;
+    }
+    .services .cards .small-card{
+        display: block;
+        text-align: center;
+    }
+    .responsive .overlay{
+        padding: 80px 0;
+    }
+    .responsive .overlay .contain .image-left{
+        display: none;
+    }
+    .responsive .overlay .contain .text-right{
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 70px 0;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px) {
+    .header .overlay .contain{
+        width: 100%;
+    }
+    .services .cards .small-card{
+        display: block;
+        text-align: center;
+    }
+    .responsive .overlay .contain .image-left{
+        left: 10px;
+    }
+    .responsive .overlay .contain .text-right{
+        width: 60%;
+        height: auto;
+        position: static;
+        padding: 10px 0;
+    }
+}
+@media all and (min-width:992px) and (max-width:1199px) {
+    .header .overlay .contain{
+        width: 100%;
+    }
+    .responsive .overlay .contain .image-left{
+        left: 10px;
+    }
+    .responsive .overlay .contain .text-right{
+        width: 60%;
+        height: auto;
+        position: static;
+        padding: 10px 0;
+    }
+}
+@media all and (min-width:1200px){
+}
